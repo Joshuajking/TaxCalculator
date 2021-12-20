@@ -1,0 +1,15 @@
+﻿TaxCalculator
+
+
+1. Create a TaxCalculator class that automatically reads the CSV file on startup with no functions being invoked by Main().
+	Special CTOR exposes static method: ComputeTaxFor that accepts two values; a state abbrevation and an income amount earned. The method should compute the tax due and return the tax as a decimal.
+
+2. Check data file for formatting errors, print out why the parsing failed and ignore the line "Try and Except block"
+
+3.TaxCalculator need a setting to allow silent or verbose mode
+		silent mode will just return the tax
+		verbose mode will explain in detail (using console.writeline)how the tax was computed.
+
+4. Create a Main method to allow you to test the tax calculator.
+		should be able to enter a state abbrevation and amount earned.
+		test calculator in verbose mode.
